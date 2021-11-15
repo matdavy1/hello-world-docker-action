@@ -2,6 +2,6 @@
 FROM groovy:2.4.12-jre8-alpine
 
 
-COPY myScript.groovy /home/groovy/
+COPY myScript.groovy /myScript.groovy
 
-ENTRYPOINT ["groovy", "myScript.groovy"]
+ENTRYPOINT "myScript.groovy"
